@@ -2,7 +2,46 @@ body {
 	background-color:lightgrey;
 }
 
-.nav {
-	background-color:white;
+.floatright {
+	float:right;
 }
 
+
+
+/* Navigointipalkki */
+
+.nav {
+	background-color:white;
+	padding:20px;
+}
+
+.navlista {
+	list-style-type:none;
+}
+
+.navlink {
+	padding:5px;
+	font-size:150%;
+	text-align:left;
+	background-color:lightgrey;
+}
+
+a.navlink {
+	color:;
+}
+
+/* Footer */
+
+footer {
+	background-color:gray;
+}
+
+/* tekstit */
+
+.tieto1 {
+	background-color:gray;
+}
+
+.tieto2 {
+	background-color:blue;
+}
