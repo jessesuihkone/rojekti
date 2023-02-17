@@ -1,18 +1,29 @@
 body {
-	background-color:lightgrey;
+	background-color: #6096B4;
 }
 
-.floatright {
+#floatright {
 	float:right;
+	margin-right:20px;
 }
+
 
 
 
 /* Navigointipalkki */
 
 .nav {
-	background-color:white;
-	padding:20px;
+	background-color: #EEE9DA;
+	padding:0px;
+	text-align:left;
+	width:100%;
+	margin:0;
+	padding:0;
+	position:absolute;
+	top:0;
+	right:0;
+	left:0;
+	border-bottom:2px solid black;
 }
 
 .navlista {
@@ -23,11 +34,20 @@ body {
 	padding:5px;
 	font-size:150%;
 	text-align:left;
-	background-color:lightgrey;
+	background-color: #BDCDD6;
+	display:inline;
+}
+
+li {
+	display:inline;
 }
 
 a.navlink {
 	color:;
+}
+
+a.navlink:hover {
+	background-color: #6096B4;
 }
 
 /* Footer */
@@ -39,9 +59,9 @@ footer {
 /* tekstit */
 
 .tieto1 {
-	background-color:gray;
+	background-color: #EEE9DA;
 }
 
 .tieto2 {
-	background-color:blue;
+	background-color: #BDCDD6;
 }
